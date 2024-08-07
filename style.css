@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+body{
+    background:url("bg-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+div{
+    display: flex;
+    justify-content: center;  
+}
+div input{
+    font-size: 25px;
+}
+div button{
+    width: max-content;
+    background-color:blue;
+    font-size: 25px;
+    color: white; 
+    padding: 0px 5px; 
+}
+h1{
+    margin:auto;
+    background-color: rgb(255,255,255,0.7);
+    width: max-content;
+    margin-top: 70px;
+    padding: 20px 40px;
+    margin-bottom: 100px;
+    font-size: 70px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+#task{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    gap: 15px;
+    font-size: 30px;
+}
+#task button img{
+    height:15px;
+    margin:0;
+    padding: 0;
+    border-radius: 100%;
+    background-color: aliceblue;
+    padding: 3px;
+}
+#task button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: max-content;
+    margin: 0 5px;
+    border-radius: 100%;
+}
